@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="feed">
+    {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+    {% for post in sorted_posts %}
+    <div class="post">
+        <div class="post-header">
+            <span class="post-author">{{ post.author | default: site.default_author }}</span>
+            <span class="post-timestamp">· {{ post.date | date: "%b %d" }}</span>
+        </div>
+        <div class="post-content">{{ post.content }}</div>
+    </div>
+    {% endfor %}
+</div>

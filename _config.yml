@@ -1,0 +1,18 @@
+title: UNCA Live Updates
+default_author: Parv Mahajan
+description: Live updates from the United Nations Correspondants Association
+
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+plugins:
+  - jekyll-feed
