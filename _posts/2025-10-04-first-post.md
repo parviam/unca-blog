@@ -1,6 +1,6 @@
 ---
-date: 2025-10-04 15:45:00
-author: Guest Contributor
+date: 2025-10-06 15:45:00
+author: United Nations Correspondants Association
 ---
 
-This post uses the default author from config.
+BREAKING: President Cabrera notes importance of diplomacy in turbulent times at GTMUN 2025. 
