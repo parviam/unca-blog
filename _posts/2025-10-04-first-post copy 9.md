@@ -1,5 +1,5 @@
 ---
-date: 2025-10-06 11:45:00
+date: 2025-10-06 11:46:00
 author: The New Yorker
 ---
 
